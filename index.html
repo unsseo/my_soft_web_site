@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Web</title>
-    <meta charset="utf-8">
-  </head>
-  <body>
-<ol>
+  <title> WEB </title>
+  <meta charset=”utf-8”>
+  <script src="master.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: white; color: black;">
   <h1><a href="index.html">WEB</a></h1>
-  <ol>
-    <li><a href="./1.html">HTML</a></li>
-    <li><a href="./2.html">CSS</a></li>
-    <li><a href="./3.html">JavaScript</a></li>
-  <li> JavaScript</li>
-</ol>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
+    </ol>
 
-<h2>Web</h2>
+    <div id="article">
+      <input id="night_day" type="button" value="night" onclick="nightDayHandler(this)">
+      <h2>WEB</h2>
+      <p>
+        The World Wide Web (WWW), commonly known as the Web, is an information system enabling documents and other web
+        resources to be accessed over the Internet.
+      </p>
+      <img
+        src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+        alt="web image" width="20%">
+      <p>
+        Documents and downloadable media are made available to the network through web servers and can be accessed by
+        programs such as web browsers. Servers and resources on the World Wide Web are identified and located through
+        character strings called uniform resource locators (URLs).
+      </p>
+      <input type="button" value="night" onclick="nightDayHandler(this)">
+    </div>
+  </div>
+</body>
 
-<img src="web.jpg" alt="Girl in a jacket" width="50" height="60">
-
-<p>A web page (or webpage) is a hypertext document on the World Wide Web. Web pages are delivered by a web server to the user and displayed in a web browser. A website consists of many web pages linked together under a common domain name. The name "web page" is a metaphor of paper pages bound together into a book.</p>
+</html>
