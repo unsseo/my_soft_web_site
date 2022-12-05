@@ -26,7 +26,7 @@ function nightDayHandler(self){
     //bodySetBGColor('black');
     Body.SetBGColor('black');
     //bodySetColor('white');
-    Body.SetColor('white');
+    Body.setColor('white');
     self.value = 'day';
     //linkssetColor('powderblue');
     Links.setColor('powderblue');
@@ -34,7 +34,7 @@ function nightDayHandler(self){
 
   } else {
     Body.SetBGColor('white');
-    Body.SetColor('black');
+    Body.setColor('black');
     self.value = 'night';
     //linkssetColor('blue');
     Links.setColor('blue');
