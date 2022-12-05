@@ -1,29 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <script>
+<html>
 
-      var player1 = ['7', '손흥민', 'MF', '토트넘 홋스퍼'];
+<head>
+  <title> WEB </title>
+  <meta charset=”utf-8”>
+  <script src="master.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-      var player = {
-        number : "7",
-        name : "손흥민",
-        position : "MF",
-        club : "토트넘 홋스퍼",
-        showAll : function(){
-        for(var key in player){
-          if(key != 'showAll'){
-        console.log(key + ':' player[key]);
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <div id="grid">
+    <ul>
+      <li><a href="1.html" class="saw" id="active">HTML</a></li>
+      <li><a href="2.html" class="saw">CSS</a></li>
+      <li><a href="3.html" class="saw">JavaScript</a></li>
+    </ul>
+    <div id="article">
+      <input id="night_day" type="button" value="night" onclick="nightDayHandler(this)">
+    <h2>HTML</h2>
+    <p>
+      The HyperText Markup Language or <a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" title="HTML5 specification">HTML</a> is <strong>the standard <u>markup</u> language</strong> for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+    </p>
+  </div>
+</div>
 
-        }
-      }
-    }
-};
+</body>
 
-    </script>
-  </body>
 </html>
